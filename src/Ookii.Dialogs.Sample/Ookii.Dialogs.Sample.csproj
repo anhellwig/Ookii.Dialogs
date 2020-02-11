@@ -12,8 +12,9 @@
     <AssemblyName>Ookii.Dialogs.Sample</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>ookii.snk</AssemblyOriginatorKeyFile>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>ookii.ico</ApplicationIcon>
     <FileUpgradeFlags>
@@ -82,7 +83,6 @@
     </Compile>
     <None Include="app.config" />
     <None Include="app.manifest" />
-    <None Include="ookii.snk" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -111,6 +111,7 @@
   </Target>
   -->
   <PropertyGroup>
-    <PostBuildEvent>IF "$(ConfigurationName)"=="Release" "$(FrameworkSDKDir)Bin\SignTool" sign /t http://timestamp.comodoca.com/authenticode "$(TargetPath)"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
