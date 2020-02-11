@@ -8,7 +8,7 @@ Copyright © Sven Groot (Ookii.org) 2009, see license.txt for details
 
 This package contains two class libraries: Ookii.Dialogs.dll for use with Windows Forms, and Ookii.Dialogs.Wpf.dll for use with Windows Presentation Foundation. The classes inside are pretty much identical; only the input dialog is not available for WPF. Some additional utility classes for Windows Forms are provided that are not available for WPF, see below for details.
 
-`Ookii.Dialogs` requires the Microsoft .NET Framework 3.5 SP1 or later. The included source code is intended for use in Visual Studio 2019.
+`Ookii.Dialogs` requires the Microsoft .NET Framework 3.5 SP1 or later, or .NET Core 3.1. The included source code is intended for use in Visual Studio 2019.
 
 The included sample applications Ookii.Dialogs.Sample and Ookii.Dialogs.Sample.Wpf demonstrate the dialogs for Windows Forms and WPF respectively. View the source of these applications to see how to use the dialogs.
 
